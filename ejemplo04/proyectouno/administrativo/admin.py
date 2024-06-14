@@ -31,7 +31,15 @@ class EstudianteAdmin(ImportExportModelAdmin, admin.ModelAdmin):
 # el segundo argumento la clase EstudianteAdmin
 admin.site.register(Estudiante, EstudianteAdmin)
 
-admin.site.register(Modulo)
+class ModuloAdmin(ImportExportModelAdmin, admin.ModelAdmin):
+    # listado de atributos que se mostrará
+    # por cada registro
+    # se deja de usar la representación (str)
+    # de la clase
+    list_display = ('nombre',)
+    search_fields = ['nombre',]
+
+admin.site.register(Modulo, ModuloAdmin)
 
 # admin.site.register(Matricula)
 class MatriculaAdmin(ImportExportModelAdmin, admin.ModelAdmin):
