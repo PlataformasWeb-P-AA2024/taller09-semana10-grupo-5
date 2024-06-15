@@ -14,6 +14,7 @@
 * En la interfaz de administración generar dos registros de tipo **Modulo**
 * Importar los registros de estudiantes.csv; desde la interfaz de administración, opción **import**
 * Importar los registros de matriculas.csv; desde la interfaz de administración, opción **import**
+![imagen](https://github.com/PlataformasWeb-P-AA2024/taller09-semana10-grupo-5/assets/159073776/01482d70-3693-4b1a-8ee6-1d2f78459abf)
 
 
 ## Desarrollo taller - Semana 10
